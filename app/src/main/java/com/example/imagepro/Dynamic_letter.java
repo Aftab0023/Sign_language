@@ -66,7 +66,7 @@ public class Dynamic_letter extends Activity implements CameraBridgeViewBase.CvC
             ActivityCompat.requestPermissions(Dynamic_letter.this, new String[] {Manifest.permission.CAMERA}, MY_PERMISSIONS_REQUEST_CAMERA);
         }
 
-        setContentView(R.layout.activity_camera);
+        setContentView(R.layout.activity_practice);
 
         mOpenCvCameraView=(CameraBridgeViewBase) findViewById(R.id.frame_Surface);
         mOpenCvCameraView.setVisibility(SurfaceView.VISIBLE);

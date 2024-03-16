@@ -51,7 +51,6 @@
         <activity
             android:name=".CombineLettersActivity"
             android:exported="false" />
-        <activity android:name=".CameraActivity" />
         <activity android:name=".MainActivity" />
     </application>
 
