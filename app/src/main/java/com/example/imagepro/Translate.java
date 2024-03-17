@@ -70,7 +70,7 @@ public class Translate extends Activity implements CameraBridgeViewBase.CvCamera
             ActivityCompat.requestPermissions(Translate.this, new String[] {Manifest.permission.CAMERA}, MY_PERMISSIONS_REQUEST_CAMERA);
         }
 
-        setContentView(R.layout.activity_combine_letters);
+        setContentView(R.layout.activity_translate);
 
         mOpenCvCameraView=(CameraBridgeViewBase) findViewById(R.id.frame_Surface);
         mOpenCvCameraView.setVisibility(SurfaceView.VISIBLE);

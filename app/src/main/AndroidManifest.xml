@@ -48,9 +48,6 @@
         <activity
             android:name=".Dynamic_letter"
             android:exported="false" />
-        <activity
-            android:name=".CombineLettersActivity"
-            android:exported="false" />
         <activity android:name=".MainActivity" />
     </application>
 
